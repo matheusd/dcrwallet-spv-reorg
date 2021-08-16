@@ -56,6 +56,7 @@ github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6r
 github.com/bgentry/speakeasy v0.1.0/go.mod h1:+zsyZBPWlz7T6j88CTgSN5bM796AkVf0kBD4zp0CCIs=
 github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f/go.mod h1:TdznJufoqS23FtqVCzL0ZqgP5MqXbb4fg/WgDys70nA=
 github.com/btcsuite/btcwallet/walletdb v1.3.3/go.mod h1:oJDxAEUHVtnmIIBaa22wSBPTVcs6hUp5NKWmI8xDwwU=
+github.com/btcsuite/winsvc v1.0.0/go.mod h1:jsenWakMcC0zFBFurPLEAyrnc/teJEM1O46fmI40EZs=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/cespare/xxhash v1.1.0/go.mod h1:XrSqR1VqqWfGrhpAt58auRo0WTKS1nRRg3ghfAqPWnc=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
@@ -79,6 +80,9 @@ github.com/dchest/siphash v1.2.2 h1:9DFz8tQwl9pTVt5iok/9zKyzA1Q6bRGiF3HPiEEVr9I=
 github.com/dchest/siphash v1.2.2/go.mod h1:q+IRvb2gOSrUnYoPqHiyHXS0FOBBOdl6tONBlVnOnt4=
 github.com/decred/base58 v1.0.3 h1:KGZuh8d1WEMIrK0leQRM47W85KqCAdl2N+uagbctdDI=
 github.com/decred/base58 v1.0.3/go.mod h1:pXP9cXCfM2sFLb2viz2FNIdeMWmZDBKG3ZBYbiSM78E=
+github.com/decred/dcrd v1.2.1-0.20210121192504-91b84e06447e/go.mod h1:r83lmDrxzC/HcUcz/AQODMv3MdRo/DbZvLex3zQhbsQ=
+github.com/decred/dcrd v1.2.1-0.20210816181553-5444fa50b93d h1:ahvZdNexK6bKOg0+4mwBYQvu8QOCUoSsgYMMEcBXvaM=
+github.com/decred/dcrd v1.2.1-0.20210816181553-5444fa50b93d/go.mod h1:l5gFATzw76g1hCzI+7ARrUQ0E97EjZoWVHVtFVeK7xE=
 github.com/decred/dcrd/addrmgr v1.2.0/go.mod h1:QlZF9vkzwYh0qs25C76SAFZBRscjETga/K28GEE6qIc=
 github.com/decred/dcrd/addrmgr/v2 v2.0.0-20210525214639-70483c835b7f/go.mod h1:VKxDZPQTcFkUhJjEsr+dcnExKlp8qdS4sUR5XUsonwg=
 github.com/decred/dcrd/addrmgr/v2 v2.0.0-20210802141345-893802fc06b0/go.mod h1:VKxDZPQTcFkUhJjEsr+dcnExKlp8qdS4sUR5XUsonwg=
@@ -152,6 +156,7 @@ github.com/decred/dcrd/hdkeychain/v3 v3.0.1-0.20210129190127-4ebd135a82f1/go.mod
 github.com/decred/dcrd/hdkeychain/v3 v3.0.1-0.20210525214639-70483c835b7f h1:0s/WB2gHaftRBryO0OEDSmdKXpcbty3F3CB7etB5pZw=
 github.com/decred/dcrd/hdkeychain/v3 v3.0.1-0.20210525214639-70483c835b7f/go.mod h1:A9Aqp4kStmkAwbZeuIlS1hZjTeDkxgVXSg+nSo4FJCs=
 github.com/decred/dcrd/lru v1.1.0/go.mod h1:mxKOwFd7lFjN2GZYsiz/ecgqR6kkYAl+0pz0tEMk218=
+github.com/decred/dcrd/peer/v2 v2.2.0/go.mod h1:jB/UwIWbxAFJn776dVC7hqR1MAiFpVP+q2dt/lDUC+I=
 github.com/decred/dcrd/peer/v3 v3.0.0-20210802141345-893802fc06b0/go.mod h1:c+HbM2qU9eqSC6QllqzrPmSZC5UOki2zTR3dfByTLF4=
 github.com/decred/dcrd/rpc/jsonrpc/types/v2 v2.3.0/go.mod h1:krn89ZOgSa8yc7sA4WpDK95p61NnjNWFkNlMnGrKbMc=
 github.com/decred/dcrd/rpc/jsonrpc/types/v3 v3.0.0-20210129200153-14fd1a785bf2/go.mod h1:9izQEJ5wU0ZwYHESMaaOIvE6H6y3IvDsQL3ByYGn9oc=
