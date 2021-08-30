@@ -48,7 +48,7 @@ func consumeSyncMsgs(syncStream pb.WalletLoaderService_SpvSyncClient, onSyncedCh
 	}
 }
 
-func NewSPVWallet(t testing.TB, spvAddr string) (*grpc.ClientConn, func()) {
+func NewSPVWallet(t testing.TB, spvAddrs []string) (*grpc.ClientConn, func()) {
 
 	dataDir := "dcrwallet-data"
 	dcrwalletExe := "dcrwallet"
@@ -166,7 +166,7 @@ func NewSPVWallet(t testing.TB, spvAddr string) (*grpc.ClientConn, func()) {
 	ctxSync, cancelSync := context.WithCancel(context.Background())
 	// Run the spv syncer.
 	req := &pb.SpvSyncRequest{
-		SpvConnect:        []string{spvAddr},
+		SpvConnect:        spvAddrs,
 		DiscoverAccounts:  true,
 		PrivatePassphrase: privatePass,
 	}
